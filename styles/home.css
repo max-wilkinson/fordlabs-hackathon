@@ -3,6 +3,13 @@ body {
     padding: 0;
 }
 
+#spaceship-img {
+    position: absolute;
+    height: 53vh;
+    bottom: 3vh;
+    right: -5vw;
+}
+
 .register-btn {
     padding: 1.25rem;
     border: none;
