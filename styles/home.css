@@ -1,3 +1,10 @@
+@font-face {
+    font-family:"STARWARS";
+    src:url("../fonts/STARWARS.eot") format("eot"),url("../fonts/STARWARS.woff") format("woff");
+    font-weight:normal;
+    font-style:normal;
+}
+
 body {
     margin: 0;
     padding: 0;
@@ -15,7 +22,24 @@ body {
     grid-column: 1 / 4;
     grid-row: 1 / 1;
     height: 85vh;
-    background-color: darkred;
+    background-image: url("../images/hackathon-header.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    justify-content: center;
+}
+
+.register-btn {
+    display: block;
+    padding: 1em;
+    margin: 75vh auto;
+    border: none;
+    color: #FFF;
+    background-color: rgba(234, 187, 33, 0.9);
+    text-transform: uppercase;
+    font-family: 'STARWARS';
+    font-size: 1.5em;
+    cursor: pointer;
 }
 
 .grid-item2 {
