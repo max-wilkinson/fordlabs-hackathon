@@ -41,8 +41,9 @@ body {
 
 .grid-item7,
 .grid-item8,
-.grid-item10 {
-    padding: 70px 70px 0 70px;
+.grid-item10,
+.grid-item12 {
+    padding: 70px 70px 0 0;
 }
 
 .grid-item5,
@@ -138,8 +139,12 @@ body {
 .grid-item12 {
     grid-column: 2 / 4;
     grid-row: 6 / 6;
-    height: 20vh;
-    background-color: palevioletred;
+    display: flex;
+    margin-bottom: 3rem;
+}
+
+.grid-item12 div {
+    width: 30%;
 }
 
 .grid-item13 {
