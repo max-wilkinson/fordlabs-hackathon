@@ -3,6 +3,17 @@ body {
     padding: 0;
 }
 
+.register-btn {
+    padding: 1.25rem;
+    border: none;
+    color: #FFF;
+    background-color: rgba(234, 187, 33, 0.9);
+    text-transform: uppercase;
+    font-family: 'STARWARS';
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
 .grid-container {
     display: grid;
     margin: 0;
@@ -22,23 +33,21 @@ body {
     justify-content: center;
 }
 
-.register-btn {
+.grid-item1 button {
     display: block;
-    padding: 1.25rem;
     margin: 73vh auto;
-    border: none;
-    color: #FFF;
-    background-color: rgba(234, 187, 33, 0.9);
-    text-transform: uppercase;
-    font-family: 'STARWARS';
-    font-size: 1.5rem;
-    cursor: pointer;
 }
 
 .grid-item2,
 .grid-item3,
 .grid-item4 {
     padding: 70px 20px 70px 140px;
+}
+
+.grid-item5,
+.grid-item15 {
+    padding-top: 70px;
+    text-align: center;
 }
 
 .grid-item2 {
@@ -77,8 +86,6 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    text-align: center;
-    padding-top: 70px;
 }
 
 .grid-item6 {
@@ -147,13 +154,19 @@ body {
 .grid-item15 {
     grid-column: 1 / 4;
     grid-row: 8;
-    height: 30vh;
-    background-color: gray;
+}
+
+.grid-item15 img {
+    height: 20vh;
 }
 
 .grid-item16 {
     grid-column: 1 / 4;
     grid-row: 9;
-    height: 15vh;
-    background-color: black;
+    background-image: url(../images/hackathon-background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    text-align: center;
+    padding-top: 1rem;
 }
