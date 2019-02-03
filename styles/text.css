@@ -70,6 +70,13 @@ ul {
     color: #FFF;
 }
 
+#timer {
+    font-size: 7rem;
+    letter-spacing: 0.5rem;
+    line-height: 8rem;
+    margin-top: 2vh;
+}
+
 #hacker-text {
     font-family: 'Courier New', Courier, monospace
 }
