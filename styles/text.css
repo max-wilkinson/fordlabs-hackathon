@@ -12,6 +12,13 @@
     font-style: normal;
 }
 
+h1 {
+    text-transform: uppercase;
+    font-family: 'STARWARS';
+    font-size: 3rem;
+    color: white;
+}
+
 h2 {
     text-transform: uppercase;
     font-family: Arial, Helvetica, sans-serif;
@@ -20,14 +27,30 @@ h2 {
     line-height: 35px;
 }
 
-p {
+p, li, aside {
     font-family: 'Ford Antenna';
-    color: #4d4d4d;
     font-size: 1.25rem;
     line-height: 30px;
 }
 
+p {
+    color: #4d4d4d;
+}
+
+li {
+    margin-bottom: 1rem;
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
 .event-detail-header {
-    margin: 0;
+    margin-bottom: 0;
     padding: 0;
+}
+
+.agenda-header {
+    color: #FFF;
 }
