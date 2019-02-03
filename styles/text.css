@@ -58,7 +58,8 @@ ul {
     padding: 0;
 }
 
-.agenda-header {
+.agenda-header,
+.location-text {
     color: #FFF;
 }
 

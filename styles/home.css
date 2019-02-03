@@ -22,20 +22,12 @@ body {
     grid-template-columns: repeat(3, 1fr);
 }
 
-.grid-item1 {
-    grid-column: 1 / 4;
-    grid-row: 1 / 1;
-    height: 85vh;
-    background-image: url("../images/hackathon-header.png");
+.grid-item1,
+.grid-item5,
+.grid-item13,
+.grid-item16 {
     background-repeat: no-repeat;
-    background-position: center;
     background-size: cover;
-    justify-content: center;
-}
-
-.grid-item1 button {
-    display: block;
-    margin: 73vh auto;
 }
 
 .grid-item2,
@@ -48,6 +40,26 @@ body {
 .grid-item15 {
     padding-top: 70px;
     text-align: center;
+}
+
+.grid-item4,
+.grid-item14 {
+    background-color: #262626;
+    background-size: cover;
+}
+
+.grid-item1 {
+    grid-column: 1 / 4;
+    grid-row: 1 / 1;
+    height: 85vh;
+    background-image: url("../images/hackathon-header.png");
+    background-position: center;
+    justify-content: center;
+}
+
+.grid-item1 button {
+    display: block;
+    margin: 73vh auto;
 }
 
 .grid-item2 {
@@ -69,8 +81,6 @@ body {
 .grid-item4 {
     grid-column: 1 / 2;
     grid-row: 3 / 3;
-    height: 60vh;
-    background-color: #262626;
     color: #FFF;
     height: auto;
 }
@@ -83,8 +93,6 @@ body {
     grid-column: 2 / 4;
     grid-row: 3 / 3;
     background-image: url(../images/hackathon-background.png);
-    background-repeat: no-repeat;
-    background-size: cover;
     background-position: center;
 }
 
@@ -140,15 +148,14 @@ body {
 .grid-item13 {
     grid-column: 1 / 3;
     grid-row: 7;
-    height: 30vh;
-    background-color: powderblue;
+    background-image: url("../images/map.png");
 }
 
 .grid-item14 {
     grid-column: 3 / 4;
     grid-row: 7;
-    height: 30vh;
-    background-color: lightsalmon;
+    padding: 70px 40px;
+    color: #FFF;
 }
 
 .grid-item15 {
@@ -164,9 +171,7 @@ body {
     grid-column: 1 / 4;
     grid-row: 9;
     background-image: url(../images/hackathon-background.png);
-    background-repeat: no-repeat;
-    background-size: cover;
     background-position: bottom;
     text-align: center;
-    padding-top: 1rem;
+    padding: 1.5rem 0;
 }
