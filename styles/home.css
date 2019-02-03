@@ -43,19 +43,19 @@ body {
 .grid-item6,
 .grid-item9,
 .grid-item11 {
-    padding: 70px 20px 70px 140px;
+    padding: 7vh 1vw 7vh 7.25vw;
 }
 
 .grid-item7,
 .grid-item8,
 .grid-item10,
 .grid-item12 {
-    padding: 70px 70px 0 0;
+    padding: 7vh 3.6vw 0 0;
 }
 
 .grid-item5,
 .grid-item15 {
-    padding-top: 70px;
+    padding-top: 7vh;
     text-align: center;
 }
 
@@ -183,4 +183,18 @@ body {
     background-position: bottom;
     text-align: center;
     padding: 1.5rem 0;
+}
+
+@media only screen and (max-width: 1200px) {
+    #spaceship-img {
+        display: none;
+    }
+
+    .grid-item1 {
+        height: 55vh;
+    }
+
+    .grid-item1 button {
+        margin: 45vh auto;
+    }
 }
