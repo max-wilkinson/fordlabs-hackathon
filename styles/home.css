@@ -32,8 +32,17 @@ body {
 
 .grid-item2,
 .grid-item3,
-.grid-item4 {
+.grid-item4,
+.grid-item6,
+.grid-item9,
+.grid-item11 {
     padding: 70px 20px 70px 140px;
+}
+
+.grid-item7,
+.grid-item8,
+.grid-item10 {
+    padding: 70px 70px 0 70px;
 }
 
 .grid-item5,
@@ -99,43 +108,31 @@ body {
 .grid-item6 {
    grid-column: 1 / 2;
    grid-row: 4 / 4;
-   height: 40vh;
-   background-color: darkgoldenrod;
 }
 
 .grid-item7 {
     grid-column: 2 / 3;
     grid-row: 4 / 4;
-    height: 40vh;
-    background-color: purple;
 }
   
 .grid-item8 {
     grid-column: 3 / 4;
     grid-row: 4 / 4;
-    height: 40vh;
-    background-color: black;
 }
 
 .grid-item9 {
     grid-column: 1 / 1;
     grid-row: 5 / 5;
-    height: 20vh;
-    background-color: darkorange;
 }
 
 .grid-item10 {
     grid-column: 2 / 4;
     grid-row: 5 / 5;
-    height: 20vh;
-    background-color: darkkhaki;
 }
 
 .grid-item11 {
     grid-column: 1 / 1;
     grid-row: 6 / 6;
-    height: 20vh;
-    background-color: greenyellow;
 }
 
 .grid-item12 {

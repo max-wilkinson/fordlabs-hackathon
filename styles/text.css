@@ -63,6 +63,10 @@ ul {
     color: #FFF;
 }
 
+#hacker-text {
+    font-family: 'Courier New', Courier, monospace
+}
+
 #made-with-love {
     color: #F7C044;
     margin-top: 1.5rem;
