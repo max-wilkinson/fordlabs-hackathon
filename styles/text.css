@@ -1,0 +1,33 @@
+@font-face {
+    font-family:"STARWARS";
+    src:url("../fonts/STARWARS.eot") format("eot"),url("../fonts/STARWARS.woff") format("woff");
+    font-weight:normal;
+    font-style:normal;
+}
+
+@font-face {
+    font-family: 'Ford Antenna';
+    src: url('../fonts/FordAntenna-Regular.eot') format("eot"),url('../fonts/FordAntenna-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+h2 {
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #262626;
+    font-size: 1.75rem;
+    line-height: 35px;
+}
+
+p {
+    font-family: 'Ford Antenna';
+    color: #4d4d4d;
+    font-size: 1.25rem;
+    line-height: 30px;
+}
+
+.event-detail-header {
+    margin: 0;
+    padding: 0;
+}
