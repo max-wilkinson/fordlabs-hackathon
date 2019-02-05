@@ -5,9 +5,9 @@ body {
 
 #spaceship-img {
     position: absolute;
-    height: 53vh;
-    bottom: 3vh;
-    right: -5vw;
+    width: 25vw;
+    bottom: -8vh;
+    right: 0;
 }
 
 .register-btn {
@@ -72,11 +72,12 @@ body {
     background-image: url("../images/hackathon-header.png");
     background-position: center;
     justify-content: center;
+    position: relative;
 }
 
 .grid-item1 button {
     display: block;
-    margin: 73vh auto;
+    margin: 73vh auto 0;
 }
 
 .grid-item2 {
