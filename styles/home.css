@@ -46,7 +46,8 @@ body {
 .agenda,
 .house-rules-title,
 .judging-title,
-.criteria-title {
+.criteria-title,
+.download {
     padding: 7vh 1vw 7vh 7.25vw;
 }
 
@@ -55,12 +56,6 @@ body {
 .judging-detail,
 .criteria-detail {
     padding: 7vh 3.6vw 0 0;
-}
-
-.countdown,
-.download {
-    padding-top: 7vh;
-    text-align: center;
 }
 
 .agenda,
@@ -117,6 +112,8 @@ body {
     grid-row: 3 / 3;
     background-image: url(../images/hackathon-background.png);
     background-position: center;
+    padding-top: 7vh;
+    text-align: center;
 }
 
 .house-rules-title {
@@ -176,10 +173,27 @@ body {
 .download {
     grid-column: 1 / 4;
     grid-row: 8;
+    text-align: center;
 }
 
-.download img {
-    height: 20vh;
+.download a {
+    display: inline-block;
+    height: 25vh;
+    width: 30vw;
+    max-width: 225px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    border: none;
+    text-decoration: none;
+}
+
+#purple-poster-link {
+    background-image: url("../images/hackathon-poster-purple.png");
+}
+
+#blue-poster-link {
+    background-image: url("../images/hackathon-poster-blue.png");
 }
 
 .footer {
