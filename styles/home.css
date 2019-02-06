@@ -3,6 +3,10 @@ body {
     padding: 0;
 }
 
+#headline-img {
+    height: 75%;
+}
+
 #spaceship-img {
     position: absolute;
     width: 25vw;
@@ -69,15 +73,16 @@ body {
     grid-column: 1 / 4;
     grid-row: 1 / 1;
     height: 85vh;
-    background-image: url("../images/hackathon-header.png");
+    background-image: url("../images/hackathon-background.png");
     background-position: center;
     justify-content: center;
+    text-align: center;
     position: relative;
 }
 
 .hero-image button {
     display: block;
-    margin: 73vh auto 0;
+    margin: 2rem auto 0;
 }
 
 .about {
@@ -196,6 +201,16 @@ body {
     }
 
     .hero-image button {
-        margin: 45vh auto;
+        font-size: 1rem;
+        padding: 1rem;
+        margin: 1rem auto 0;
+    }
+}
+
+@media only screen and (max-height: 575px) {
+    .hero-image button {
+        font-size: 1rem;
+        padding: 1rem;
+        margin: 1rem auto 0;
     }
 }
