@@ -89,7 +89,6 @@ body {
 .event-detail {
     grid-column: 3 / 4;
     grid-row: 2 / 2;
-    height: 25vh;
 }
 
 .event-detail div {
