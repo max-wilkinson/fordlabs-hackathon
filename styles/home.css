@@ -17,6 +17,7 @@ body {
 .register-btn {
     padding: 1.25rem;
     border: none;
+    outline: none;
     color: #FFF;
     background-color: rgba(234, 187, 33, 0.9);
     text-transform: uppercase;
