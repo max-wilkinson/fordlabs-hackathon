@@ -3,7 +3,7 @@
 var htmlElement = "timer"
 
 // Set the date we're counting down to
-var hackathonStart = new Date("Mar 14, 2019 08:30:00").getTime();
+var hackathonStart = new Date("Jun 27, 2019 08:30:00").getTime();
 
 // Update the count down every 1 second
 var interval = setInterval(function() {
