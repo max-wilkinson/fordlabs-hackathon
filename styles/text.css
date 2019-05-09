@@ -38,7 +38,8 @@ h3 {
     text-transform: uppercase;
     font-family: 'STARWARS';
     font-size: 1.25rem;
-    color: #F7C044;
+    letter-spacing: 2px;
+    color: rgba(33, 194, 234, 0.9);
 }
 
 p, li, aside {
@@ -82,7 +83,7 @@ ul {
 }
 
 #made-with-love {
-    color: #F7C044;
+    color: rgba(33, 194, 234, 0.9);
     margin-top: 1.5rem;
     font-size: 1rem;
 }
