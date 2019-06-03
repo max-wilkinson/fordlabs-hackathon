@@ -188,12 +188,8 @@ body {
     text-decoration: none;
 }
 
-#purple-poster-link {
-    background-image: url("../images/hackathon-poster-purple.png");
-}
-
-#blue-poster-link {
-    background-image: url("../images/hackathon-poster-blue.png");
+#poster-link {
+    background-image: url("../images/HackathonPoster-Final.png");
 }
 
 .footer {
