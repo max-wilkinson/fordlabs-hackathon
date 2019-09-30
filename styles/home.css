@@ -181,7 +181,7 @@ body {
 
 .download a {
   display: inline-block;
-  height: 25vh;
+  height: 15vh;
   width: 30vw;
   max-width: 225px;
   background-repeat: no-repeat;
@@ -192,7 +192,7 @@ body {
 }
 
 #poster-link {
-  background-image: url('../images/HackathonPoster-Final.png');
+  background-image: url('../images/HackathonPoster-Nov.png');
 }
 
 .footer {
